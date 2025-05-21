@@ -18,6 +18,8 @@ public class PromptBioUtente {
         //* stampo il risultato */
         System.out.printf(" Buongiorno sono :%s%n sono nato il:21/07%d%n  ",nome,annoNascita);
         System.out.println("mancano : " + (6-giornoSettimana) + " giorni al weekend(Sabato)");
+
+        scanner.close();
         
     }
 
